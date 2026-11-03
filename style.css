@@ -55,3 +55,27 @@ body{
     left: 400px;
     top: 400px;
 }
+.puzzle-piece {
+    position: absolute;
+    left: 700px;        /* Pushes pieces to the right, past your 600px wide board */
+    top: 50px;          /* Starts them near the top of the screen */
+    width: 200px;
+    height: 200px;
+    cursor: grab;
+    z-index: 10;
+}
+
+#img2-3-draggable { position: absolute; left: 650px;  top: 0px; }
+#img1-1-draggable { position: absolute; left: 850px;  top: 0px; }
+#img3-2-draggable { position: absolute; left: 1050px; top: 0px; }
+
+/* Middle Row Positions (top: 200px) */
+#img1-3-draggable { position: absolute; left: 650px;  top: 200px; }
+#img3-3-draggable { position: absolute; left: 850px;  top: 200px; }
+#img1-2-draggable { position: absolute; left: 1050px; top: 200px; }
+
+/* Bottom Row Positions (top: 400px) */
+#img2-1-draggable { position: absolute; left: 650px;  top: 400px; }
+#img3-1-draggable { position: absolute; left: 850px;  top: 400px; }
+#img2-2-draggable { position: absolute; left: 1050px; top: 400px; }
+
